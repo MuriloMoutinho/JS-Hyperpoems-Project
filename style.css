@@ -1,0 +1,172 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: rgb(122, 39, 39);
+    padding: 0.6em;
+    box-shadow: 0 0 0.8em black;
+
+}
+footer{
+    background-color: rgb(122, 39, 39);
+    margin-top: 3em;
+    box-shadow: 0 0 0.8em black;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+    width: 100%;
+    margin-top: -42em;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: white;
+}
+
+video{
+    width: 100%;
+    object-fit: cover;
+    position: sticky;
+    height: 100vh;
+    top: 0px;
+    z-index: -1;
+}
+
+
+
+.poema{
+    position: relative;
+}
+.hyperlink{
+    width: 420px;
+    background: rgb(23,151,161);
+    /*background: linear-gradient(322deg, rgba(23,151,161,1) 0%, rgba(27,198,238,1) 100%);*/
+    padding: 0.6em;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    border-radius: 10px;
+    z-index: 2;
+    opacity: 1;
+
+    transition: 2s;
+
+}
+input{
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    box-shadow: 0 0 0.3em gray;
+
+    margin-bottom: 8em;
+
+}
+.hyperlink img{
+    width: 80%;
+    height: 300px;
+    margin: 1em 0;
+}
+.hyperlink a{
+    display: block;
+}
+.tradução{
+    margin: 0.5em;
+}
+.link{
+    color: red;
+    cursor: pointer;
+
+    animation: colorgradiente 10s ease infinite;
+}
+
+
+
+
+
+
+.hide{
+    display: none;
+    opacity: 0;
+}
+
+
+.madisoncss{
+    top: -5em;
+    right: -28em;
+    background-color: #7D7E6C;
+}
+.earthcss{
+    top: 2em;
+    right: -22em;
+    background-color: #017F8D;
+}
+.treecss{
+    top: -5em;
+    right: -28em;
+    background-color: #ECE5DC;
+    color: black;
+}
+.birthcss{
+    top: 2em;
+    right: -20em;
+    background-color: #8C5E4F;
+}
+.deathcss{
+    top: 2em;
+    right: -20em;
+    background-color: #3E3E3E;
+}
+.soulscss{
+    top: 2em;
+    right: -20em;
+    background-color: #44566B;
+}
+.forcecss{
+    top: 2em;
+    right: -20em;
+    background-color: rgb(122, 39, 39);
+
+}
+
+
+
+
+.streamscss{
+    top: 4em;
+    left: -22em;
+    background-color: #8489B4;    
+}
+.fleshcss{
+    top: 3em;
+    left: -20em;
+    background-color: #FFFFFF;
+    color: black;
+}
+.dreamcss{
+    top: 5em;
+    left: -20em;
+    background: linear-gradient(141deg, rgba(45,136,162,1) 0%, rgba(70,92,109,1) 91%);
+    background-size: 300% 300%;
+}
+
+@keyframes colorgradiente {
+    0%{
+        color: #660303;
+    }
+    50%{
+        color: red;
+    }
+    100%{
+        color: #660303;
+    }
+}
